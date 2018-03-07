@@ -11081,6 +11081,8 @@ in {
 
   openpyxl = callPackage ../development/python-modules/openpyxl { };
 
+  opentimestamps = callPackage ../development/python-modules/opentimestamps { };
+
   ordereddict = buildPythonPackage rec {
     name = "ordereddict-${version}";
     version = "1.1";
