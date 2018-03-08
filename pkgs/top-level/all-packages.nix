@@ -5450,6 +5450,8 @@ with pkgs;
 
   unarj = callPackage ../tools/archivers/unarj { };
 
+  unp = callPackage ../tools/archivers/unp { };
+
   unshield = callPackage ../tools/archivers/unshield { };
 
   unzip = callPackage ../tools/archivers/unzip { };
