@@ -5020,7 +5020,7 @@ with pkgs;
     extraFonts = true;
   };
 
-  texmaker = callPackage ../applications/editors/texmaker { };
+  texmaker = libsForQt5.callPackage ../applications/editors/texmaker { };
 
   texstudio = callPackage ../applications/editors/texstudio { };
 
